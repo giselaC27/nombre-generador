@@ -1,3 +1,54 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Fondo celeste pastel con degradado */
+.bg-celeste-pastel {
+    position: relative;
+    background: linear-gradient(135deg, #abcdef, #89abcd);
+    overflow: hidden;
+  }
+  
+  /* Efecto de ondas */
+  .custom-shape-divider-bottom-1694732700 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1694732700 svg {
+    position: relative;
+    display: block;
+    width: calc(152% + 1.3px);
+    height: 192px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1694732700 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.custom-shape-divider-bottom-1694732700 svg {
+    position: relative;
+    display: block;
+    width: calc(152% + 1.3px);
+    height: 192px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1694732700 .shape-fill {
+    fill: #FFFFFF;
+}
+
+  /* Transparencia y desenfoque */
+.bg-opacity-80 {
+    background-color: rgba(255, 255, 255, 0.289); 
+  }
+  
+  .backdrop-blur-md {
+    backdrop-filter: blur(10px); 
+  }
